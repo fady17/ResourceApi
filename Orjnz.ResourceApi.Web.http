@@ -1,0 +1,6 @@
+@Orjnz.ResourceApi.Web_HostAddress = http://localhost:5119
+
+GET {{Orjnz.ResourceApi.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

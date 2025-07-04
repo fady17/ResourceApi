@@ -1,6 +1,6 @@
 # Orjnz.ResourceApi.TestClinic - Protected Resource API
 
-This repository contains a .NET 7 Minimal API that serves as a protected resource server within the Orjnz OpenID Connect (OIDC) ecosystem. Its primary purpose is to demonstrate how a backend service can trust and validate JWT access tokens issued by the central `Orjnz.IdentityProvider` and serve data based on the claims contained within those tokens.
+This repository contains a .NET  Minimal API that serves as a protected resource server within the Orjnz OpenID Connect (OIDC) ecosystem. Its primary purpose is to demonstrate how a backend service can trust and validate JWT access tokens issued by the central `Orjnz.IdentityProvider` and serve data based on the claims contained within those tokens.
 
 This API represents a "tenant-specific" service, in this case for `testclinic`. It is configured to only accept tokens intended for the `testclinic-api` audience.
 
@@ -88,7 +88,7 @@ This API requires the following configuration values, typically set in `appsetti
 ## 5. Running the Application
 
 1.  **Prerequisites:**
-    -   .NET 7 SDK
+    -   .NET SDK
     -   The `Orjnz.IdentityProvider.Web` project must be running, as this API depends on it for token validation.
 
 2.  **Configuration:**
